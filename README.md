@@ -1,22 +1,27 @@
 # COMP3005_assignment3_101305532_Gazi_Hossain
-JAVA JDBC crud application that connects to local postgres server for assignment 3 COMP3005
+JAVA JDBC CRUD application that connects to local postgres server for assignment 3 COMP3005
 This application includes functions
 1) getAllStudent()
-   - Gets all the students from studentsDB
+   - Retrieves and prints all rows from the students table
 2) addStudent()
-   - Adds a student to the database
+   - Inserts a new student row into the students table
 3) updateStudentEmail()
-   - Updates the student's email for the given student_id
+   - Inserts a new student row into the students table
 4) deleteStudent()
-   - Deletes the student for the given student_id
+   - Inserts a new student row into the students table
   
 #How to run
-- Make sure to have a datebase in pgadmin that aligns with the requirements for this application
-        - i.e. have a table name students, have 5 columns as - student_id, first_name, last_name, email, enrollment_date
-- Update the username, password or database name(url) as needed
+- Make sure to have a database in pgAdmin that matches the required schema
+             - have a table name students(if not change it in the source code accordingly)
+            -  have 5 columns as - student_id, first_name, last_name, email, enrollment_date
+- Update the connection detail(DB url, username and password) in source code to match for your local setup
 - After running the program
-      - It will print all the students
-      = add students to the database
-      - delete students
-      - update student's email
+      - It will print all the existing students in the DB
+      = add a student to the database
+      - delete a student by the given id
+      - update a student's email by the given id
+
+NOTES:
+   - make sure PostgresSQL is running locally
+   - when adding a student use formatted data as "YYYY-MM-DD"
       
