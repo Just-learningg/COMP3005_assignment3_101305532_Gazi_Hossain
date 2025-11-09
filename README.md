@@ -12,8 +12,8 @@ This application includes functions
   
 #How to run
 1) Make sure to have a database in pgAdmin that matches the required schema
-             - have a table name students(if not change it in the source code accordingly)
-             - have 5 columns as - student_id, first_name, last_name, email, enrollment_date
+      - have a table name students(if not change it in the source code accordingly)
+      - have 5 columns as - student_id, first_name, last_name, email, enrollment_date
 2) Update the connection detail(DB url, username and password) in source code to match for your local setup
 3) After running the program
       - It will print all the existing students in the DB
