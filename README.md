@@ -16,10 +16,10 @@ This application includes functions
             -  have 5 columns as - student_id, first_name, last_name, email, enrollment_date
 - Update the connection detail(DB url, username and password) in source code to match for your local setup
 - After running the program
-      - It will print all the existing students in the DB
-      - add a student to the database
-      - delete a student by the given id
-      - update a student's email by the given id
+      1) It will print all the existing students in the DB
+      2) add a student to the database
+      3) delete a student by the given id
+      4) update a student's email by the given id
 
 NOTES:
    - make sure PostgresSQL is running locally
