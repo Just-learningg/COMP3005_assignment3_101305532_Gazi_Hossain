@@ -11,15 +11,15 @@ This application includes functions
    - Inserts a new student row into the students table
   
 #How to run
-- Make sure to have a database in pgAdmin that matches the required schema
+1) Make sure to have a database in pgAdmin that matches the required schema
              - have a table name students(if not change it in the source code accordingly)
-            -  have 5 columns as - student_id, first_name, last_name, email, enrollment_date
-- Update the connection detail(DB url, username and password) in source code to match for your local setup
-- After running the program
-      1) It will print all the existing students in the DB
-      2) add a student to the database
-      3) delete a student by the given id
-      4) update a student's email by the given id
+             - have 5 columns as - student_id, first_name, last_name, email, enrollment_date
+2) Update the connection detail(DB url, username and password) in source code to match for your local setup
+3) After running the program
+      - It will print all the existing students in the DB
+      - add a student to the database
+      - delete a student by the given id
+      - update a student's email by the given id
 
 NOTES:
    - make sure PostgresSQL is running locally
