@@ -17,7 +17,7 @@ This application includes functions
 - Update the connection detail(DB url, username and password) in source code to match for your local setup
 - After running the program
       - It will print all the existing students in the DB
-      = add a student to the database
+      - add a student to the database
       - delete a student by the given id
       - update a student's email by the given id
 
